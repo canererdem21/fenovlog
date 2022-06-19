@@ -15,7 +15,7 @@ const videoSchema = new Schema({
     },
     comments:[{
         cid:{
-            type:Number
+            type:Number,
         },
         ctext:{
             type:String
